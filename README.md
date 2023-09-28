@@ -14,4 +14,13 @@ sessionId (String) after login user's session id will be stored in this variable
 
 # Accessing User info through Json Path
 
+| Value | Json Path |
+| --- | --- |
+| ` user name ` | $.userinfo.username |
+| `first name` | $.userinfo.first_name |
+| `email` | $.userinfo.email |
+| `profile image` | $.userinfo.profileImage |
+| `phone` | $.userinfo.phone |
+
+
 
