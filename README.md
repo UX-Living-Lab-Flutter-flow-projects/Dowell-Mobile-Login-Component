@@ -9,10 +9,10 @@ FF project, without creating api calls, and updating AppState each time.
 
 ```mermaid
 graph TD;
-    FlutterFlow --> Team Code;
-    Team Code --> Login Component;
-     Login Component--> Project x;
-     Login Component-->  Project y;
+    FlutterFlow --> TeamCode;
+    TeamCode --> LoginComponent;
+     LoginComponent--> projectX;
+     LoginComponent-->  ProjectY;
   
 ```
 
