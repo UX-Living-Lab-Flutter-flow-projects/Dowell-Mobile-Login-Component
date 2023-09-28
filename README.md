@@ -12,7 +12,7 @@ Please note that in Appstate you can see two new variables ,1 response, 2 sessio
 response (Json) after login user's information will be stored in this variable. you can access userinfo, portfolio info, org info, selected workspaces and its id.
 sessionId (String) after login user's session id will be stored in this variable. you can use this for handeling user logs.
 
-# Accessing User info through Json Path
+# Accessing Basic User information through Json Path
 
 | Value | Json Path |
 | --- | --- |
