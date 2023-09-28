@@ -13,7 +13,7 @@ graph TD;
     Team Code --> Login Component;
      Login Component--> Project x;
      Login Component-->  Project y;
-    C-->D;
+  
 ```
 
 ### App State
