@@ -13,6 +13,10 @@ graph TD;
     TeamCode --> LoginComponent;
      LoginComponent--> projectX;
      LoginComponent-->  ProjectY;
+     ProjectX--> UserName;
+     ProjectX--> ProfileImage;
+     ProjectY--> UserName;
+     ProjectY--> OrgId;    
   
 ```
 
