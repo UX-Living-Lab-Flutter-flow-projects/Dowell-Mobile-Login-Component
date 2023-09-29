@@ -63,7 +63,7 @@ json path to retrieve your needed value.
 | `other orgs with their name and id` | $.otherorg_list |
 
 
-### Handeling Login State
+### Handling Login State
 Do you want your user logged in , even if he close the App, then follow the steps.
 
 1. Step 1 (AppState)
