@@ -12,11 +12,11 @@ graph TD;
     FlutterFlow --> TeamCode;
     TeamCode --> LoginComponent;
      LoginComponent--> projectX;
-     LoginComponent-->  ProjectY;
-     ProjectX--> UserName;
-     ProjectX--> ProfileImage;
-     ProjectY--> UserName;
-     ProjectY--> OrgId;    
+     LoginComponent-->  projectY;
+     projectX--> UserName;
+     projectX--> ProfileImage;
+     projectY--> userName;
+     projectY--> OrgId;    
   
 ```
 
