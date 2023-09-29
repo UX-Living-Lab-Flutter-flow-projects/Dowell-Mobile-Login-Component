@@ -84,10 +84,13 @@ Call logout API on you Logout button's action. Please note that its also importa
 you also have to clear the session id variable.
 
 > API
+
 | Base Url | End Point |
 | --- | --- |
 | https://100014.pythonanywhere.com/api/ | mobilelogout/ |
+
 >Request Body
+
 | Parameter | Value |
 | --- | --- |
 | "session_id" | sessionId variable |
