@@ -64,3 +64,35 @@ json path to retrieve your needed value.
 
 
 ### Handeling Login State
+Do you want your user logged in , even if he close the App, then follow the steps.
+
+1. Step 1 (AppState)
+   - Go to Appstate, and delete older sessionId variable, add another variable with similar name "sessionId",
+     but this time turn on the persisted of variable.
+
+2. Step 2 (Condition)
+   - Select Login screen and add a action (onLoadScreen), select if/else condition from actions,
+     now (in) if condition, select sessionId variable in first value, next select Equalto and select set and keep
+     second value empty, click on confirm.
+   - Select navigateTo action in (then), and add Login Screen, next in else navigateTo HomePage.
+
+2. Step 3 (Clear the session id)
+   - Follow the Logout instructions below.
+
+### Logout
+Call logout API on you Logout button's action. Please note that its also important that after calling logout api
+you also have to clear the session id variable.
+
+> API
+| Base Url | End Point |
+| --- | --- |
+| https://100014.pythonanywhere.com/api/ | mobilelogout/ |
+>Request Body
+| Parameter | Value |
+| --- | --- |
+| "session_id" | sessionId variable |
+
+### Contributions
+Backend :- Roshan and Login Team.
+Component :- Umar Baloch.
+Project Leads :- Manish, Nitesh.
